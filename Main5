@@ -1,0 +1,38 @@
+class Cat{
+boolean hasFur;
+String color,breed;
+int legs,eyes;
+public void walk(){
+System.out.println("The cat is walking");
+}
+public void eat(){
+System.out.println("The cat is eating");
+}
+public void description(){
+System.out.println("The cat has"+legs+"legs and"+eyes+"eyes");
+}
+}
+class Dog{
+String breed,name;
+public void jump(){
+System.out.println("The Dog is jumping");
+}
+public void run(){
+System.out.println("The Dog is running");
+}
+public void description(){
+System.out.println("The cat's name is"+name+"and it's breed is"+breed);
+}
+}
+public class Main5{
+public static void main(String[] args){
+Cat cat1=new Cat();
+cat1.legs=2;
+cat1.eyes=3;
+cat1.description();
+Dog dog1=new Dog();
+dog1.name="Marchas";
+dog1.breed="Moolchand";
+dog1.description();
+}
+}
